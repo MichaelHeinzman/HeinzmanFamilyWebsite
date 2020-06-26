@@ -3,11 +3,11 @@ Website:
 My Family's website I'm creating as a personal project for the summer
 
     src: All of the code is in this file
-    Assets: Holds scss and css files.
-    Components: Holds jsx files.
-    Images: Holds all of the images I'm using for the website
+        Assets: Holds scss and css files.
+        Components: Holds jsx files.
+        Images: Holds all of the images I'm using for the website
 
-    Layout:
+    Design Layout:
         Home Page:
             Welcome:
 
