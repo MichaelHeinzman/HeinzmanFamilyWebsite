@@ -1,5 +1,6 @@
 Website:
--- My Family's website I'm creating as a personal project for the summer
+
+My Family's website I'm creating as a personal project for the summer
 
     src: All of the code is in this file
     Assets: Holds scss and css files.
