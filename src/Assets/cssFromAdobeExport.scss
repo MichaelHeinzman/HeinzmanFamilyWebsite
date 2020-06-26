@@ -1,0 +1,447 @@
+.mediaViewInfo {
+  --web-view-name: Home Page;
+  --web-view-id: Home_Page;
+  --web-scale-on-resize: true;
+  --web-enable-deep-linking: true;
+}
+:root {
+  --web-view-ids: Home_Page;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+#Home_Page {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(167, 177, 230, 1);
+  --web-view-name: "Home Page";
+  --web-view-id: Home_Page;
+  --web-scale-on-resize: true;
+  --web-enable-deep-linking: true;
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#AboutBanner {
+  position: absolute;
+  width: 562px;
+  height: 355px;
+  left: 679px;
+  top: 772px;
+  overflow: visible;
+}
+#BannerBackground_v {
+  position: absolute;
+  width: 488px;
+  height: 266px;
+  left: 14px;
+  top: 89px;
+  overflow: visible;
+}
+#BannerBackground_w {
+  fill: rgba(0, 93, 83, 1);
+  stroke: rgba(255, 255, 255, 1);
+  stroke-width: 5px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.BannerBackground_w {
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.529));
+  position: absolute;
+  overflow: visible;
+  width: 506px;
+  height: 284px;
+  left: 0px;
+  top: 0px;
+}
+#BannerSmallBorderBackground_x {
+  position: absolute;
+  width: 513px;
+  height: 103px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+#Rectangle_16_y {
+  fill: rgba(20, 177, 162, 1);
+  stroke: rgba(255, 255, 255, 1);
+  stroke-width: 5px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Rectangle_16_y {
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.529));
+  position: absolute;
+  overflow: visible;
+  width: 531px;
+  height: 121px;
+  left: 0px;
+  top: 0px;
+}
+#Rectangle_26_z {
+  fill: rgba(255, 255, 255, 1);
+  stroke: rgba(112, 112, 112, 1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Rectangle_26_z {
+  position: absolute;
+  overflow: visible;
+  width: 3px;
+  height: 2px;
+  left: 559px;
+  top: 178px;
+}
+#BannerSmallBackground_ {
+  position: absolute;
+  width: 488px;
+  height: 74px;
+  left: 11px;
+  top: 15px;
+  overflow: visible;
+}
+#Rectangle_16_ {
+  fill: rgba(0, 93, 83, 1);
+  stroke: rgba(255, 255, 255, 1);
+  stroke-width: 5px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Rectangle_16_ {
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.529));
+  position: absolute;
+  overflow: visible;
+  width: 506px;
+  height: 92px;
+  left: 0px;
+  top: 0px;
+}
+#About {
+  left: 158.5px;
+  top: 8.733px;
+  position: absolute;
+  overflow: visible;
+  width: 172px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Segoe UI;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 64px;
+  color: rgba(255, 255, 255, 1);
+}
+#I_made_different_themes_to_see_ {
+  left: 43.5px;
+  top: 114.733px;
+  position: absolute;
+  overflow: visible;
+  width: 430px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 36px;
+  color: rgba(255, 255, 255, 1);
+}
+#OurEventsBanner {
+  position: absolute;
+  width: 562px;
+  height: 355px;
+  left: 1303px;
+  top: 772px;
+  overflow: visible;
+}
+#BannerBackground_ {
+  position: absolute;
+  width: 488px;
+  height: 266px;
+  left: 14px;
+  top: 89px;
+  overflow: visible;
+}
+#BannerBackground_ba {
+  fill: rgba(0, 93, 83, 1);
+  stroke: rgba(255, 255, 255, 1);
+  stroke-width: 5px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.BannerBackground_ba {
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.529));
+  position: absolute;
+  overflow: visible;
+  width: 506px;
+  height: 284px;
+  left: 0px;
+  top: 0px;
+}
+#BannerSmallBorderBackground_ {
+  position: absolute;
+  width: 513px;
+  height: 103px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+#Rectangle_16_ba {
+  fill: rgba(19, 176, 161, 1);
+  stroke: rgba(255, 255, 255, 1);
+  stroke-width: 5px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Rectangle_16_ba {
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.529));
+  position: absolute;
+  overflow: visible;
+  width: 531px;
+  height: 121px;
+  left: 0px;
+  top: 0px;
+}
+#Rectangle_26_ {
+  fill: rgba(255, 255, 255, 1);
+  stroke: rgba(112, 112, 112, 1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Rectangle_26_ {
+  position: absolute;
+  overflow: visible;
+  width: 3px;
+  height: 2px;
+  left: 559px;
+  top: 178px;
+}
+#BannerSmallBackground_ba {
+  position: absolute;
+  width: 488px;
+  height: 74px;
+  left: 11px;
+  top: 15px;
+  overflow: visible;
+}
+#Rectangle_16_bb {
+  fill: rgba(0, 93, 83, 1);
+  stroke: rgba(255, 255, 255, 1);
+  stroke-width: 5px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Rectangle_16_bb {
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.529));
+  position: absolute;
+  overflow: visible;
+  width: 506px;
+  height: 92px;
+  left: 0px;
+  top: 0px;
+}
+#Our_Events {
+  left: 94.5px;
+  top: 8.733px;
+  position: absolute;
+  overflow: visible;
+  width: 301px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Segoe UI;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 64px;
+  color: rgba(255, 255, 255, 1);
+}
+#I_made_different_themes_to_see_bd {
+  left: 43.5px;
+  top: 114.733px;
+  position: absolute;
+  overflow: visible;
+  width: 430px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 36px;
+  color: rgba(255, 255, 255, 1);
+}
+
+/*
+----------------------------------------------
+/////////////////// Home ///////////////////
+----------------------------------------------
+*/
+#DadsPicture {
+  position: absolute;
+  width: 50%;
+  height: 70%;
+  left: 50%;
+  top: 9%;
+  overflow: visible;
+}
+#DadsOtherPicture {
+  position: absolute;
+  width: 50%;
+  height: 70%;
+  left: 0%;
+  top: 9%;
+  overflow: visible;
+}
+
+/*
+----------------------------------------------
+/////////////////// NavBar ///////////////////
+----------------------------------------------
+*/
+#NavBar {
+  ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 40%;
+    margin-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  li {
+    margin-left: 4%;
+  }
+  a {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    overflow: visible;
+    right: "50px";
+    width: 10%;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 39px;
+    color: rgb(255, 255, 255);
+  }
+}
+
+#Heinzman_Family__Website {
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+  top: 1%;
+  position: absolute;
+  overflow: visible;
+  margin-left: 5%;
+  width: 10%;
+  z-index: 5;
+  text-align: center;
+  font-family: Vivaldi;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 40px;
+  color: rgba(255, 255, 255, 1);
+}
+#Path_2 {
+  fill: rgba(20, 177, 162, 1);
+  stroke: rgba(255, 255, 255, 1);
+  stroke-width: 5px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Path_2 {
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.29));
+  overflow: visible;
+  position: absolute;
+  width: 100%;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+#Path_1 {
+  fill: rgba(0, 93, 83, 1);
+  stroke: rgba(255, 255, 255, 1);
+  stroke-width: 5px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Path_1 {
+  overflow: visible;
+  position: absolute;
+  width: 100%;
+  margin-top: 0%;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+/*
+----------------------------------------------
+/////////////////// CopyRight ///////////////////
+----------------------------------------------
+*/
+#CopyRight {
+  position: absolute;
+  width: 1753px;
+  height: 88px;
+  left: 83.5px;
+  top: 1620.5px;
+  overflow: visible;
+}
+#Line_1 {
+  fill: transparent;
+  stroke: rgba(255, 255, 255, 1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Line_1 {
+  overflow: visible;
+  position: absolute;
+  width: 1753px;
+  height: 1px;
+  left: 0px;
+  top: 27px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+#_Copyright_2003__Heinzmannet_A {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  overflow: visible;
+  width: 739px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Segoe UI;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 33px;
+  color: rgba(255, 255, 255, 1);
+}
