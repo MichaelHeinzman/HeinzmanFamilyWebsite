@@ -1,0 +1,78 @@
+/*
+----------------------------------------------
+/////////////////// NavBar ///////////////////
+----------------------------------------------
+*/
+#NavBar {
+  ul {
+    display: flex;
+
+    list-style-type: none;
+
+    position: fixed;
+    margin-left: 25%;
+  }
+  li {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  a {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    overflow: visible;
+    right: "50px";
+    width: 10%;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 39px;
+    color: rgb(255, 255, 255);
+  }
+}
+
+#Heinzman_Family__Website {
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+  position: fixed;
+  z-index: 0;
+  overflow: visible;
+  margin-left: 5%;
+  width: 10%;
+  text-align: center;
+  font-family: Vivaldi;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 40px;
+  color: rgba(255, 255, 255, 1);
+}
+#Path_2 {
+  fill: rgba(20, 177, 162, 1);
+  stroke: rgba(255, 255, 255, 1);
+  stroke-width: 5px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Path_2 {
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.29));
+  overflow: visible;
+  position: fixed;
+  width: 100%;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+#Path_1 {
+  fill: rgba(0, 93, 83, 1);
+  stroke: rgba(255, 255, 255, 1);
+  stroke-width: 5px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Path_1 {
+  overflow: visible;
+  position: fixed;
+  width: 100%;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}

@@ -1,7 +1,7 @@
 import React, {
   Component,
 } from "/Seth/WebProjectFiles/HeinzmanFamilyWebsite/familywebsite/node_modules/react";
-import "/Seth/WebProjectFiles/HeinzmanFamilyWebsite/familywebsite/src/Assets/HomePage.scss";
+import "/Seth/WebProjectFiles/HeinzmanFamilyWebsite/familywebsite/src/Assets/NavBar.scss";
 import LinkButton from "./LinkButton";
 import TextLabel from "./TextLabel";
 import NavBarSvg from "./NavBarSvg";
