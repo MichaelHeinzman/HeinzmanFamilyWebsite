@@ -1,7 +1,7 @@
 import React, {
   Component,
-} from "/Seth/WebProjectFiles/HeinzmanFamilyWebsite/website/node_modules/react";
-import "/Seth/WebProjectFiles/HeinzmanFamilyWebsite/website/src/Assets/HomePage.scss";
+} from "/Seth/WebProjectFiles/HeinzmanFamilyWebsite/familywebsite/node_modules/react";
+import "/Seth/WebProjectFiles/HeinzmanFamilyWebsite/familywebsite/src/Assets/HomePage.scss";
 
 class LinkButton extends Component {
   render() {

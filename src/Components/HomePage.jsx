@@ -1,15 +1,15 @@
 // Components
 import React, {
   Component,
-} from "/Seth/WebProjectFiles/HeinzmanFamilyWebsite/website/node_modules/react";
+} from "/Seth/WebProjectFiles/HeinzmanFamilyWebsite/familywebsite/node_modules/react";
 import Picture from "./Picture";
 import Banner from "./Banner";
 // Scss
-import "/Seth/WebProjectFiles/HeinzmanFamilyWebsite/website/src/Assets/HomePage.scss";
+import "/Seth/WebProjectFiles/HeinzmanFamilyWebsite/familywebsite/src/Assets/HomePage.scss";
 
 // Images
-import DadsOtherPicture from "/Seth/WebProjectFiles/HeinzmanFamilyWebsite/website/src/images/Image_1.png";
-import DadsPicture from "/Seth/WebProjectFiles/HeinzmanFamilyWebsite/website/src/images/Image_2.png";
+import DadsOtherPicture from "/Seth/WebProjectFiles/HeinzmanFamilyWebsite/familywebsite/src/images/Image_1.png";
+import DadsPicture from "/Seth/WebProjectFiles/HeinzmanFamilyWebsite/familywebsite/src/images/Image_2.png";
 
 class HomePage extends Component {
   render() {
