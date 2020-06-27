@@ -1,4 +1,12 @@
 /*
+--------------------------------------------------------------------------------------------
+/////////////////// Variables that will be moved to another folder /////////////////////////
+--------------------------------------------------------------------------------------------
+*/
+$PrimaryColor: rgba(0, 93, 83, 1);
+$SecondaryColor: rgba(20, 177, 162, 1);
+
+/*
 ----------------------------------------------
 /////////////////// NavBar ///////////////////
 ----------------------------------------------
@@ -8,7 +16,49 @@
   padding: 0;
   margin: 0;
 }
-/* Desktop menu */
+
+// NavBar Svg Style
+.NavBarSvg {
+  svg {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.29));
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    position: fixed;
+  }
+
+  path {
+    stroke: rgba(255, 255, 255, 1);
+    stroke-width: 5px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+  }
+  .TopPath {
+    fill: rgba(0, 93, 83, 1);
+  }
+  .BottomPath {
+    fill: rgba(20, 177, 162, 1);
+  }
+}
+
+// Title on left of navbar
+.WebsiteTitle {
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+  flex: 1;
+  font-family: Vivaldi;
+  font-style: italic;
+  font-weight: normal;
+  align-self: flex-start;
+  font-size: 4vh;
+  color: rgba(255, 255, 255, 1);
+}
+
+/*
+----------------------------------------------
+/////////////////// Screen Layouts ///////////////////
+----------------------------------------------
+*/
+// Desktop Version
 @media all and (min-width: 960px) {
   .NavBar {
     display: flex;
@@ -16,52 +66,20 @@
     align-items: flex-start;
     flex-direction: row;
     flex-wrap: nowrap;
-    background: none;
+    position: fixed;
+
+    li {
+      margin-left: 5vh;
+      margin-right: 5vh;
+      justify-self: center;
+    }
     a {
       position: relative;
       display: block;
       width: auto;
-      padding: 10px;
-
       color: white;
+      font-size: 5vh;
       text-decoration: none;
     }
   }
-}
-
-#Path_2 {
-  fill: rgba(20, 177, 162, 1);
-  stroke: rgba(255, 255, 255, 1);
-  stroke-width: 5px;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
-.Path_2 {
-  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.29));
-  transform: matrix(1, 0, 0, 1, 0, 0);
-  position: absolute;
-}
-#Path_1 {
-  fill: rgba(0, 93, 83, 1);
-  stroke: rgba(255, 255, 255, 1);
-  stroke-width: 5px;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
-.Path_1 {
-  position: absolute;
-  transform: matrix(1, 0, 0, 1, 0, 0);
-}
-
-.WebsiteTitle {
-  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
-  flex: 1;
-  font-family: Vivaldi;
-  font-style: italic;
-  font-weight: normal;
-  color: rgba(255, 255, 255, 1);
 }

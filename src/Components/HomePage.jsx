@@ -18,10 +18,12 @@ class HomePage extends Component {
         <div className="flex">
           <ul className="header">
             <Picture className="DadsPicture" src={DadsPicture} />
-            <Picture className="DadsPicture" src={DadsPicture} />
+            <Picture className="DadsOtherPicture" src={DadsOtherPicture} />
           </ul>
           <ul className="body">
-            <Banner></Banner>
+            <Banner />
+            <Banner />
+            <Banner />
           </ul>
           <div className="footer"></div>
         </div>

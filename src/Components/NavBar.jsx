@@ -11,7 +11,7 @@ class NavBar extends Component {
     const { onPageChosen, websiteTitle, websiteTitleCSS } = this.props;
 
     return (
-      <div>
+      <div position="fixed">
         <NavBarSvg />
         <ul className="NavBar">
           <TextLabel websiteTitleCSS={websiteTitleCSS} Text={websiteTitle} />
