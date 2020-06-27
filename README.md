@@ -1,11 +1,12 @@
 Website:
 
 My Family's website I'm creating as a personal project for the summer
-
-    src: All of the code is in this file
-        Assets: Holds scss and css files.
-        Components: Holds jsx files.
-        Images: Holds all of the images I'm using for the website
+Adobe XD File: The design of the website. I didn't start with mobile since I'm not sure when I'll work on this again after I finish the website.
+  
+ src: All of the code is in this file
+Assets: Holds scss and css files.
+Components: Holds jsx files.
+Images: Holds all of the images I'm using for the website
 
     Design Layout:
         Home Page:
