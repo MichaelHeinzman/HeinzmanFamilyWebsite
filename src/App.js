@@ -2,11 +2,12 @@ import React, { Component } from "react";
 import HomePage from "./Components/HomePage";
 import NavBar from "./Components/NavBar";
 import "./Assets/App.scss";
-
+import LinkButton from "./Components/LinkButton";
 class App extends Component {
   state = {
     currentPage: "Home",
-    TitleOfWebsite: "HeinzmanFamily \n Website",
+    websiteTitle: "Heinzman Family Website",
+    websiteTitleCSS: "WebsiteTitle",
   };
 
   UpdateChosenPage = (PageId) => {
@@ -17,11 +18,12 @@ class App extends Component {
     return (
       <div className="App">
         <NavBar
-          currentPage={this.currentPage}
-          Title={this.TitleOfWebsite}
+          websiteTitle={this.state.websiteTitle}
+          websiteTitleCSS={this.state.websiteTitleCSS}
           onPageChosen={this.UpdateChosenPage}
+          currentPage={this.state.currentPage}
         ></NavBar>
-        <HomePage />
+        <HomePage> </HomePage>
       </div>
     );
   }

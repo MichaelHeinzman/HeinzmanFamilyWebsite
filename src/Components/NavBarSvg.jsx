@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class NavBarSvg extends Component {
   render() {
     return (
-      <div>
+      <div position="relative">
         <svg className="Path_2" viewBox="0 -0.924 1949.218 115">
           <path
             id="Path_2"

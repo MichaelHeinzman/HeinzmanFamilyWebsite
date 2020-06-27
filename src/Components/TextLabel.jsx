@@ -1,8 +1,14 @@
 import React, { Component } from "react";
+import "/Seth/WebProjectFiles/HeinzmanFamilyWebsite/familywebsite/src/Assets/NavBar.scss";
 
 class TextLabel extends Component {
   render() {
-    return <text id={this.props.id}>{this.props.Text}</text>;
+    console.log(this.props.websiteTitleCSS);
+    return (
+      <li>
+        <div className={this.props.websiteTitleCSS}>{this.props.Text}</div>
+      </li>
+    );
   }
 }
 

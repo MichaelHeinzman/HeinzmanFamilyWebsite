@@ -8,12 +8,13 @@ import NavBarSvg from "./NavBarSvg";
 
 class NavBar extends Component {
   render() {
-    const { onPageChosen } = this.props;
+    const { onPageChosen, websiteTitle, websiteTitleCSS } = this.props;
+
     return (
-      <div id="NavBar">
+      <div>
         <NavBarSvg />
-        <TextLabel id="Heinzman_Family__Website" Text={this.props.Title} />
-        <ul id="NavBar">
+        <ul className="NavBar">
+          <TextLabel websiteTitleCSS={websiteTitleCSS} Text={websiteTitle} />
           <LinkButton id="Home" onPageChosen={onPageChosen}></LinkButton>
           <LinkButton id="Family" onPageChosen={onPageChosen}></LinkButton>
           <LinkButton id="Gallery" onPageChosen={onPageChosen}></LinkButton>

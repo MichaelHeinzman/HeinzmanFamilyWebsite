@@ -4,7 +4,7 @@ class Banner extends Component {
   state = {};
   render() {
     return (
-      <div id="Banner">
+      <li id="Banner">
         <div id="BannerBackground">
           <svg className="Rectangle_16">
             <rect
@@ -67,7 +67,7 @@ class Banner extends Component {
             better.
           </span>
         </div>
-      </div>
+      </li>
     );
   }
 }

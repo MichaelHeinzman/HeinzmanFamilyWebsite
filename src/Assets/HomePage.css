@@ -3,34 +3,42 @@
 /////////////////// Layout ///////////////////
 ----------------------------------------------
 */
-
 .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  ul {
-    display: flex;
-    object-fit: cover;
-  }
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.header {
-  li {
-    height: 40vh;
-    flex-grow: 1;
-  }
-  img {
-    max-height: 100%;
-    min-width: 100%;
-    object-fit: cover;
-    vertical-align: bottom;
-  }
+.flex ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
-.body {
-  li {
-    height: 40vh;
-    flex-grow: 1;
-  }
+.header li {
+  height: 40vh;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.header img {
+  max-height: 100%;
+  min-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  vertical-align: bottom;
+}
+
+.body li {
+  height: 40vh;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 
 .footer {
@@ -42,14 +50,12 @@
 /////////////////// Content ///////////////////
 ----------------------------------------------
 */
-
-// Home Banners
 #Banner {
   width: 562px;
   height: 355.5px;
-
   position: relative;
 }
+
 #BannerBackground {
   position: absolute;
   width: 488px;
@@ -58,6 +64,7 @@
   top: 89px;
   overflow: visible;
 }
+
 #BannerSmallBorderBackground {
   position: absolute;
   width: 513px;
@@ -66,17 +73,20 @@
   top: 0px;
   overflow: visible;
 }
+
 #Rectangle_16 {
-  fill: rgba(0, 93, 83, 1);
-  stroke: rgba(255, 255, 255, 1);
+  fill: #005d53;
+  stroke: white;
   stroke-width: 5px;
   stroke-linejoin: miter;
   stroke-linecap: butt;
   stroke-miterlimit: 4;
   shape-rendering: auto;
 }
+
 .Rectangle_16 {
-  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.529));
+  -webkit-filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.529));
+          filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.529));
   position: absolute;
   overflow: visible;
   width: 506px;
@@ -84,17 +94,20 @@
   left: 0px;
   top: 0px;
 }
+
 #Rectangle_16_o {
-  fill: rgba(20, 177, 162, 1);
-  stroke: rgba(255, 255, 255, 1);
+  fill: #14b1a2;
+  stroke: white;
   stroke-width: 5px;
   stroke-linejoin: miter;
   stroke-linecap: butt;
   stroke-miterlimit: 4;
   shape-rendering: auto;
 }
+
 .Rectangle_16_o {
-  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.529));
+  -webkit-filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.529));
+          filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.529));
   position: absolute;
   overflow: visible;
   width: 531px;
@@ -104,14 +117,15 @@
 }
 
 #Rectangle_26 {
-  fill: rgba(255, 255, 255, 1);
-  stroke: rgba(112, 112, 112, 1);
+  fill: white;
+  stroke: #707070;
   stroke-width: 1px;
   stroke-linejoin: miter;
   stroke-linecap: butt;
   stroke-miterlimit: 4;
   shape-rendering: auto;
 }
+
 .Rectangle_26 {
   position: absolute;
   overflow: visible;
@@ -129,17 +143,20 @@
   top: 15px;
   overflow: visible;
 }
+
 #Rectangle_16_r {
-  fill: rgba(0, 93, 83, 1);
-  stroke: rgba(255, 255, 255, 1);
+  fill: #005d53;
+  stroke: white;
   stroke-width: 5px;
   stroke-linejoin: miter;
   stroke-linecap: butt;
   stroke-miterlimit: 4;
   shape-rendering: auto;
 }
+
 .Rectangle_16_r {
-  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.529));
+  -webkit-filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.529));
+          filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.529));
   position: absolute;
   overflow: visible;
   width: 506px;
@@ -147,6 +164,7 @@
   left: 0px;
   top: 0px;
 }
+
 #Welcome {
   left: 130.5px;
   top: 9.5px;
@@ -159,8 +177,9 @@
   font-style: italic;
   font-weight: normal;
   font-size: 64px;
-  color: rgba(255, 255, 255, 1);
+  color: white;
 }
+
 #I_made_different_themes_to_see {
   left: 43.5px;
   top: 115.5px;
@@ -173,5 +192,6 @@
   font-style: italic;
   font-weight: normal;
   font-size: 36px;
-  color: rgba(255, 255, 255, 1);
+  color: white;
 }
+/*# sourceMappingURL=HomePage.css.map */

@@ -14,15 +14,15 @@ import DadsPicture from "/Seth/WebProjectFiles/HeinzmanFamilyWebsite/familywebsi
 class HomePage extends Component {
   render() {
     return (
-      <div>
-        <div className="grid">
-          <div className="header">
+      <div className="Home">
+        <div className="flex">
+          <ul className="header">
             <Picture className="DadsPicture" src={DadsPicture} />
-            <Picture className="DadsOtherPicture" src={DadsOtherPicture} />
-          </div>
-          <div className="body">
-            <Banner />
-          </div>
+            <Picture className="DadsPicture" src={DadsPicture} />
+          </ul>
+          <ul className="body">
+            <Banner></Banner>
+          </ul>
           <div className="footer"></div>
         </div>
       </div>
