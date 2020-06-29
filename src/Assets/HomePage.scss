@@ -32,10 +32,21 @@
   li {
     flex-grow: 1;
     height: 40vh;
+    display: flex;
     background-color: red;
+    justify-content: center;
+    align-content: center;
+    div {
+      width: 50%;
+      height: 100%;
+      border-style: solid;
+      background-color: rgba(0, 93, 83, 1);
+      border-color: rgba(255, 255, 255, 1);
+      border-width: 5px;
+      filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.529));
+    }
   }
 }
-
 .body li:nth-child(odd) {
   background-color: blue;
 }
@@ -51,76 +62,14 @@
 */
 
 // Home Banners
-.Banner {
-  position: relative;
-}
-.BannerContentBackground {
-  position: absolute;
-  overflow: visible;
-  align-self: center;
-  svg {
-    position: absolute;
-    overflow: visible;
-    object-fit: cover;
-    vertical-align: top;
-  }
-  rect {
-    fill: rgba(0, 93, 83, 1);
-    stroke: rgba(255, 255, 255, 1);
-    stroke-width: 5px;
-    stroke-linejoin: miter;
-    stroke-linecap: butt;
-    stroke-miterlimit: 4;
-    shape-rendering: auto;
-
-    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.529));
-    position: absolute;
-    overflow: visible;
-  }
-}
-.BannerSmallBorderBackground {
-  object-fit: cover;
-  vertical-align: top;
-  svg {
-    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.529));
-    position: absolute;
-    overflow: visible;
-    object-fit: cover;
-    vertical-align: top;
-  }
-  rect {
-    fill: rgba(20, 177, 162, 1);
-    stroke: rgba(255, 255, 255, 1);
-    stroke-width: 5px;
-    stroke-linejoin: miter;
-    stroke-linecap: butt;
-    stroke-miterlimit: 4;
-    shape-rendering: auto;
-  }
-}
-
-.BannerSmallBackground {
-  position: absolute;
-  overflow: visible;
-  object-fit: cover;
-  vertical-align: top;
-  svg {
-    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.529));
-    position: absolute;
-    overflow: visible;
-    object-fit: cover;
-    vertical-align: top;
-  }
-
-  rect {
-    fill: rgba(0, 93, 83, 1);
-    stroke: rgba(255, 255, 255, 1);
-    stroke-width: 5px;
-    stroke-linejoin: miter;
-    stroke-linecap: butt;
-    stroke-miterlimit: 4;
-    shape-rendering: auto;
-  }
+.BannerContent {
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 36px;
+  color: rgba(255, 255, 255, 1);
 }
 
 .Welcome {
@@ -131,16 +80,5 @@
   font-style: italic;
   font-weight: normal;
   font-size: 64px;
-  color: rgba(255, 255, 255, 1);
-}
-.BannerContent {
-  position: absolute;
-  overflow: visible;
-  white-space: nowrap;
-  text-align: left;
-  font-family: Segoe UI;
-  font-style: italic;
-  font-weight: normal;
-  font-size: 36px;
   color: rgba(255, 255, 255, 1);
 }

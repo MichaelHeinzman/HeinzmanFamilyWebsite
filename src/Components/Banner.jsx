@@ -4,29 +4,23 @@ class Banner extends Component {
   state = {};
   render() {
     return (
-      <li className="Banner">
-        <div className="BannerContentBackground">
-          <svg>
-            <rect rx="0" ry="0" x="0" y="0" width="388" height="266"></rect>
-          </svg>
-          {/* <span className="BannerContent">
-            I made different themes
-            <br />
-            to see how they would look.
-            <br />I don't know what I like <br />
-            better.
-          </span> */}
-        </div>
-        <div className="BannerSmallBorderBackground">
+      <li>
+        {/* <div>
           <svg>
             <rect rx="0" ry="0" x="0" y="0" width="413" height="75"></rect>
           </svg>
         </div>
-        <div className="BannerSmallBackground">
+        <div>
           <svg>
             <rect rx="0" ry="0" x="0" y="0" width="388" height="50"></rect>
           </svg>
-          {/* <span className="Welcome">Welcome</span> */}
+        </div> */}
+        <div>
+          <span className="BannerContent">
+            Blah blah blah <br />
+            Blah Blah Blah <br />
+            Blah Blah Blah.
+          </span>
         </div>
       </li>
     );
