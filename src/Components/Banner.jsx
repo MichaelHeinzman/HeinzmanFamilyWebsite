@@ -5,22 +5,20 @@ class Banner extends Component {
   render() {
     return (
       <li>
-        {/* <div>
-          <svg>
-            <rect rx="0" ry="0" x="0" y="0" width="413" height="75"></rect>
-          </svg>
-        </div>
-        <div>
-          <svg>
-            <rect rx="0" ry="0" x="0" y="0" width="388" height="50"></rect>
-          </svg>
-        </div> */}
-        <div>
-          <span className="BannerContent">
+        <div className="BannerContent">
+          <span>
             Blah blah blah <br />
             Blah Blah Blah <br />
             Blah Blah Blah.
           </span>
+        </div>
+        <div className="Welcome">
+          <div>
+            <span>
+              Welcome
+              <br />
+            </span>
+          </div>
         </div>
       </li>
     );
