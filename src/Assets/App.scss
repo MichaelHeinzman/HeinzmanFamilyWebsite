@@ -1,13 +1,9 @@
-/*
-----------------------------------------------
-/////////////////// Layout ///////////////////
-----------------------------------------------
-*/
+@import "./VariablesFunctions.scss";
 
 .App {
   display: flex;
   flex-direction: column;
   justify-content: center;
 
-  background: rgba(167, 177, 230, 1);
+  background: $BackgroundColor;
 }

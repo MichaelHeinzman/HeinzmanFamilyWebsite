@@ -3,10 +3,10 @@ import "/Seth/WebProjectFiles/HeinzmanFamilyWebsite/familywebsite/src/Assets/Nav
 
 class TextLabel extends Component {
   render() {
-    console.log(this.props.websiteTitleCSS);
+    console.log(this.props.CName);
     return (
       <li>
-        <div className={this.props.websiteTitleCSS}>{this.props.Text}</div>
+        <div className={this.props.CName}>{this.props.Text}</div>
       </li>
     );
   }

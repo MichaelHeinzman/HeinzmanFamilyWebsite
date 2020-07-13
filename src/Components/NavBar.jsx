@@ -14,7 +14,7 @@ class NavBar extends Component {
       <div position="fixed">
         <NavBarSvg />
         <ul className="NavBar">
-          <TextLabel websiteTitleCSS={websiteTitleCSS} Text={websiteTitle} />
+          <TextLabel CName={websiteTitleCSS} Text={websiteTitle} />
           <LinkButton id="Home" onPageChosen={onPageChosen}></LinkButton>
           <LinkButton id="Family" onPageChosen={onPageChosen}></LinkButton>
           <LinkButton id="Gallery" onPageChosen={onPageChosen}></LinkButton>

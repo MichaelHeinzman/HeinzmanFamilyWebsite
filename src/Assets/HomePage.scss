@@ -1,8 +1,4 @@
-/*
-----------------------------------------------
-/////////////////// Layout ///////////////////
-----------------------------------------------
-*/
+@import "./VariablesFunctions.scss";
 
 .flex {
   display: flex;
@@ -66,7 +62,7 @@
 .BannerContent {
   width: 60%;
   height: 80%;
-  background-color: rgba(0, 93, 83, 1);
+  background-color: $SecondaryColor;
   span {
     margin-top: 5%;
     text-align: center;
@@ -80,13 +76,13 @@
 
 .Welcome {
   position: absolute;
-  background-color: rgba(20, 177, 162, 1);
+  background-color: $PrimaryColor;
   width: 43vh;
   height: 11vh;
   div {
     width: 40vh;
     height: 8vh;
-    background-color: rgba(0, 93, 83, 1);
+    background-color: $SecondaryColor;
     position: relative;
   }
 

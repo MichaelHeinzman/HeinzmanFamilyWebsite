@@ -11,6 +11,18 @@ import "/Seth/WebProjectFiles/HeinzmanFamilyWebsite/familywebsite/src/Assets/Hom
 import DadsOtherPicture from "/Seth/WebProjectFiles/HeinzmanFamilyWebsite/familywebsite/src/images/Image_1.png";
 import DadsPicture from "/Seth/WebProjectFiles/HeinzmanFamilyWebsite/familywebsite/src/images/Image_2.png";
 
+// Welcome Banner
+const WelcomeHeader = "Welcome";
+const WelcomeText = "Blah Blah Blah Blah Blah Blah Blah Blah!";
+
+// About Banner
+const AboutHeader = "About";
+const AboutText = "Blah Blah Blah Blah Blah Blah Blah Blah!";
+
+// Our Events Banner
+const EventsHeader = "Our Events";
+const EventText = "Blah Blah Blah Blah Blah Blah Blah Blah!";
+
 class HomePage extends Component {
   render() {
     return (
@@ -21,18 +33,9 @@ class HomePage extends Component {
             <Picture className="DadsOtherPicture" src={DadsOtherPicture} />
           </ul>
           <ul className="body">
-            <Banner
-              Text="Blah Blah Blah Blah Blah Blah Blah Blah!"
-              Header="Welcome"
-            />
-            <Banner
-              Text="Blah Blah Blah Blah Blah Blah Blah Blah!"
-              Header="About"
-            />
-            <Banner
-              Text="Blah Blah Blah Blah Blah Blah Blah Blah!"
-              Header="Our Events"
-            />
+            <Banner Text={WelcomeText} Header={WelcomeHeader} />
+            <Banner Text={AboutText} Header={AboutHeader} />
+            <Banner Text={EventText} Header={EventsHeader} />
           </ul>
           <div className="footer"></div>
         </div>

@@ -1,10 +1,4 @@
-/*
---------------------------------------------------------------------------------------------
-/////////////////// Variables that will be moved to another folder /////////////////////////
---------------------------------------------------------------------------------------------
-*/
-$PrimaryColor: rgba(0, 93, 83, 1);
-$SecondaryColor: rgba(20, 177, 162, 1);
+@import "./VariablesFunctions.scss";
 
 /*
 ----------------------------------------------
@@ -34,10 +28,10 @@ $SecondaryColor: rgba(20, 177, 162, 1);
     shape-rendering: auto;
   }
   .TopPath {
-    fill: rgba(0, 93, 83, 1);
+    fill: $SecondaryColor;
   }
   .BottomPath {
-    fill: rgba(20, 177, 162, 1);
+    fill: $PrimaryColor;
   }
 }
 
