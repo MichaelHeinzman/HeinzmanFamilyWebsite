@@ -1,25 +1,26 @@
-// Components
+// Components.
 import React, {
   Component,
 } from "/Seth/WebProjectFiles/HeinzmanFamilyWebsite/familywebsite/node_modules/react";
 import Picture from "./Picture";
 import Banner from "./Banner";
-// Scss
+
+// Scss.
 import "/Seth/WebProjectFiles/HeinzmanFamilyWebsite/familywebsite/src/Assets/HomePage.scss";
 
-// Images
+// Images.
 import DadsOtherPicture from "/Seth/WebProjectFiles/HeinzmanFamilyWebsite/familywebsite/src/images/Image_1.png";
 import DadsPicture from "/Seth/WebProjectFiles/HeinzmanFamilyWebsite/familywebsite/src/images/Image_2.png";
 
-// Welcome Banner
+// Welcome Banner.
 const WelcomeHeader = "Welcome";
 const WelcomeText = "Blah Blah Blah Blah Blah Blah Blah Blah!";
 
-// About Banner
+// About Banner.
 const AboutHeader = "About";
 const AboutText = "Blah Blah Blah Blah Blah Blah Blah Blah!";
 
-// Our Events Banner
+// Our Events Banner.
 const EventsHeader = "Our Events";
 const EventText = "Blah Blah Blah Blah Blah Blah Blah Blah!";
 
