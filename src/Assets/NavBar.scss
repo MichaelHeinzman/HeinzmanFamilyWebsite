@@ -11,7 +11,7 @@
   margin: 0;
 }
 
-// NavBar Svg Style
+// NavBar Svg Style.
 .NavBarSvg {
   svg {
     filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.29));
@@ -35,7 +35,7 @@
   }
 }
 
-// Title on left of navbar
+// Title on left of navbar.
 .WebsiteTitle {
   filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
   flex: 1;
@@ -49,10 +49,11 @@
 
 /*
 ----------------------------------------------
-/////////////////// Screen Layouts ///////////////////
+////////////// Screen Layouts ////////////////
 ----------------------------------------------
 */
-// Desktop Version
+
+// Desktop Version.
 @media all and (min-width: 960px) {
   .NavBar {
     display: flex;

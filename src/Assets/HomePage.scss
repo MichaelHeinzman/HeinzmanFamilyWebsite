@@ -1,16 +1,25 @@
 @import "./VariablesFunctions.scss";
 
+/*
+----------------------------------------------
+/////////////////// Layout ///////////////////
+----------------------------------------------
+*/
+
+// Creates a Flex Box for the whole Page.
 .flex {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 
+  // The different rows on the page: Header, Body, Footer.
   ul {
     display: flex;
     list-style-type: none;
   }
 }
 
+// The Top Row of the FlexBox on the Page: Holds pictures.
 .header {
   li {
     height: 65vh;
@@ -24,14 +33,17 @@
   }
 }
 
+// The middle Row of the Flexbox on the Page: Holds Banners.
 .body {
+  // li holds a flexbox to hold the Divs that hold the text.
+  // The divs create the banner rectangles on the page.
   li {
     flex-grow: 1;
-    height: 40vh;
     display: flex;
-
     align-content: center;
     justify-content: center;
+
+    height: 40vh;
 
     div {
       display: flex;
@@ -40,7 +52,6 @@
       align-items: center;
 
       border-style: solid;
-
       border-color: rgba(255, 255, 255, 1);
       border-width: 5px;
       filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.529));
@@ -48,6 +59,7 @@
   }
 }
 
+// The Last Row on the Page.
 .footer {
   background-color: green;
 }
@@ -58,7 +70,7 @@
 ----------------------------------------------
 */
 
-// Home Banners
+// Banners in the Body Portion of the Page.
 .BannerContent {
   width: 60%;
   height: 80%;
@@ -74,6 +86,7 @@
   }
 }
 
+// The Title of the Banner. Probably should change the name to TitleBanner.
 .Welcome {
   position: absolute;
   background-color: $PrimaryColor;

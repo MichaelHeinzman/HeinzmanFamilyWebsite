@@ -1,5 +1,6 @@
 @import "./VariablesFunctions.scss";
 
+//Creates a FlexBox to contain the NavBar and the Pages that go under the Navbar.
 .App {
   display: flex;
   flex-direction: column;
