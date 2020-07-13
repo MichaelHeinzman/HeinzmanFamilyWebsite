@@ -21,9 +21,18 @@ class HomePage extends Component {
             <Picture className="DadsOtherPicture" src={DadsOtherPicture} />
           </ul>
           <ul className="body">
-            <Banner />
-            <Banner />
-            <Banner />
+            <Banner
+              Text="Blah Blah Blah Blah Blah Blah Blah Blah!"
+              Header="Welcome"
+            />
+            <Banner
+              Text="Blah Blah Blah Blah Blah Blah Blah Blah!"
+              Header="About"
+            />
+            <Banner
+              Text="Blah Blah Blah Blah Blah Blah Blah Blah!"
+              Header="Our Events"
+            />
           </ul>
           <div className="footer"></div>
         </div>

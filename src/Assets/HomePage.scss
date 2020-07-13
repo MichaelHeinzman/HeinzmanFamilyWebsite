@@ -34,7 +34,6 @@
     height: 40vh;
     display: flex;
 
-    background-color: red;
     align-content: center;
     justify-content: center;
 
@@ -52,9 +51,6 @@
     }
   }
 }
-.body li:nth-child(odd) {
-  background-color: blue;
-}
 
 .footer {
   background-color: green;
@@ -68,11 +64,12 @@
 
 // Home Banners
 .BannerContent {
-  width: 50%;
-  height: 100%;
+  width: 60%;
+  height: 80%;
   background-color: rgba(0, 93, 83, 1);
   span {
-    text-align: left;
+    margin-top: 5%;
+    text-align: center;
     font-family: Segoe UI;
     font-style: italic;
     font-weight: normal;
@@ -84,10 +81,10 @@
 .Welcome {
   position: absolute;
   background-color: rgba(20, 177, 162, 1);
-  width: 41vh;
+  width: 43vh;
   height: 11vh;
   div {
-    width: 38vh;
+    width: 40vh;
     height: 8vh;
     background-color: rgba(0, 93, 83, 1);
     position: relative;

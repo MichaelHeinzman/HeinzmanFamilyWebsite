@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import HomePage from "./Components/HomePage";
 import NavBar from "./Components/NavBar";
 import "./Assets/App.scss";
-import LinkButton from "./Components/LinkButton";
+
 class App extends Component {
   state = {
     currentPage: "Home",
