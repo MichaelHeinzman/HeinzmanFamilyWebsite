@@ -1,16 +1,17 @@
-// Components.
 import React, {
   Component,
 } from "/Seth/WebProjectFiles/HeinzmanFamilyWebsite/familywebsite/node_modules/react";
-import Picture from "./Picture";
-import Banner from "./Banner";
+
+// Components
+import Picture from "../Components/Picture";
+import Banner from "../Components/Banner";
 
 // Scss.
 import "/Seth/WebProjectFiles/HeinzmanFamilyWebsite/familywebsite/src/Assets/HomePage.scss";
 
 // Images.
-import DadsOtherPicture from "/Seth/WebProjectFiles/HeinzmanFamilyWebsite/familywebsite/src/images/Image_1.png";
-import DadsPicture from "/Seth/WebProjectFiles/HeinzmanFamilyWebsite/familywebsite/src/images/Image_2.png";
+import DadsOtherPicture from "/Seth/WebProjectFiles/HeinzmanFamilyWebsite/familywebsite/src/Images/Image_1.png";
+import DadsPicture from "/Seth/WebProjectFiles/HeinzmanFamilyWebsite/familywebsite/src/Images/Image_2.png";
 
 // Welcome Banner.
 const WelcomeHeader = "Welcome";

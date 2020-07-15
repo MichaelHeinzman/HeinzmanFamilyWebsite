@@ -15,11 +15,31 @@ class NavBar extends Component {
         <NavBarSvg />
         <ul className="NavBar">
           <TextLabel CName={websiteTitleCSS} Text={websiteTitle} />
-          <LinkButton id="Home" onPageChosen={onPageChosen}></LinkButton>
-          <LinkButton id="Family" onPageChosen={onPageChosen}></LinkButton>
-          <LinkButton id="Gallery" onPageChosen={onPageChosen}></LinkButton>
-          <LinkButton id="Work" onPageChosen={onPageChosen}></LinkButton>
-          <LinkButton id="Shop" onPageChosen={onPageChosen}></LinkButton>
+          <LinkButton
+            id="/"
+            text="Home"
+            onPageChosen={onPageChosen}
+          ></LinkButton>
+          <LinkButton
+            id="Family"
+            text="Family"
+            onPageChosen={onPageChosen}
+          ></LinkButton>
+          <LinkButton
+            id="Gallery"
+            text="Gallery"
+            onPageChosen={onPageChosen}
+          ></LinkButton>
+          <LinkButton
+            id="Work"
+            text="Work"
+            onPageChosen={onPageChosen}
+          ></LinkButton>
+          <LinkButton
+            id="Shop"
+            text="Shop"
+            onPageChosen={onPageChosen}
+          ></LinkButton>
         </ul>
       </div>
     );
