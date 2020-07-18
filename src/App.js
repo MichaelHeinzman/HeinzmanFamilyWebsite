@@ -31,22 +31,24 @@ class App extends Component {
 
   render() {
     return (
-      <Router>
-        <NavBar
-          websiteTitle={this.state.websiteTitle}
-          websiteTitleCSS={this.state.websiteTitleCSS}
-          onPageChosen={this.UpdateChosenPage}
-          currentPage={this.state.currentPage}
-        ></NavBar>
+      <div>
+        <Router>
+          <NavBar
+            websiteTitle={this.state.websiteTitle}
+            websiteTitleCSS={this.state.websiteTitleCSS}
+            onPageChosen={this.UpdateChosenPage}
+            currentPage={this.state.currentPage}
+          ></NavBar>
 
-        <Switch>
-          <Route exact path="/" component={HomePage} />
-          <Route exact path="/Family" component={FamilyPage} />
-          <Route exact path="/Gallery" component={GalleryPage} />
-          <Route path="/404" component={NotFoundPage} />
-          <Redirect to="/404" />
-        </Switch>
-      </Router>
+          <Switch>
+            <Route exact path="/" component={HomePage} />
+            <Route exact path="/Family" component={FamilyPage} />
+            <Route exact path="/Gallery" component={GalleryPage} />
+            <Route path="/404" component={NotFoundPage} />
+            <Redirect to="/404" />
+          </Switch>
+        </Router>
+      </div>
     );
     // <div className="App">
     //   <NavBar

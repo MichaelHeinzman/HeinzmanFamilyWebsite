@@ -28,19 +28,19 @@ const EventText = "Blah Blah Blah Blah Blah Blah Blah Blah!";
 class HomePage extends Component {
   render() {
     return (
-      <div className="Home">
-        <div className="flex">
-          <ul className="header">
-            <Picture className="DadsPicture" src={DadsPicture} />
-            <Picture className="DadsOtherPicture" src={DadsOtherPicture} />
-          </ul>
-          <ul className="body">
-            <Banner Text={WelcomeText} Header={WelcomeHeader} />
-            <Banner Text={AboutText} Header={AboutHeader} />
-            <Banner Text={EventText} Header={EventsHeader} />
-          </ul>
-          <div className="footer"></div>
-        </div>
+      <div className="flex">
+        <ul className="header">
+          <Picture className="DadsPicture" src={DadsPicture} />
+          <Picture className="DadsOtherPicture" src={DadsOtherPicture} />
+        </ul>
+        <ul className="body">
+          <Banner Text={WelcomeText} Header={WelcomeHeader} />
+          <Banner Text={AboutText} Header={AboutHeader} />
+          <Banner Text={EventText} Header={EventsHeader} />
+        </ul>
+        <ul className="footer">
+          <span>2020 Copyright All Rights Reserved.</span>
+        </ul>
       </div>
     );
   }
